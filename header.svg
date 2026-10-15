@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Polito — video editor, vibe-coder, Call of Duty to Unreal">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.55" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7f5af0"/>
+      <stop offset="1" stop-color="#2cb67d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#bg)"/>
+  <path d="M0,186 C240,148 480,224 720,192 C930,164 1080,198 1200,172 L1200,240 L0,240 Z" fill="#ffffff" opacity="0.05"/>
+  <path d="M0,206 C260,176 520,234 780,206 C970,186 1100,208 1200,192 L1200,240 L0,240 Z" fill="#ffffff" opacity="0.04"/>
+
+  <text x="600" y="108" text-anchor="middle"
+        font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif"
+        font-size="78" font-weight="700" letter-spacing="8" fill="#ffffff">POLITO</text>
+
+  <text x="600" y="150" text-anchor="middle"
+        font-family="Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif"
+        font-size="19" letter-spacing="1.5" fill="#c9c4e8">video editor &#8226; vibe-coder &#8226; Call of Duty &#8594; Unreal</text>
+
+  <rect x="500" y="172" width="200" height="3" rx="1.5" fill="url(#accent)"/>
+</svg>
