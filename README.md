@@ -18,76 +18,148 @@ Can't really write code — so I build tools instead, and keep going until the s
 
 <br>
 
-| 🗺️ | 🎮 | 📡 | 📦 |
-|:---:|:---:|:---:|:---:|
-| **25** map readers | **14** game profiles | **9** live games | **31** repos |
+<table>
+  <tr>
+    <td align="center">🗺️<br><b>25</b><br><sub>map readers</sub></td>
+    <td align="center">🎮<br><b>14</b><br><sub>game profiles</sub></td>
+    <td align="center">📡<br><b>9</b><br><sub>live games</sub></td>
+    <td align="center">📦<br><b>31</b><br><sub>repos</sub></td>
+  </tr>
+</table>
 
 </div>
 
 ---
 
 ## ⚡ Vesper
-> Pull a Call of Duty game apart. Rebuild it as an editable Unreal scene.
 
-| | | |
-|:--|:--|:--|
-| 🗺️ | **Vesper** | Desktop exporter. 25 map routes, 15 asset profiles, 14 titles. **Read-only** — no hooks, no game writes. |
-| 🌍 | **Vesper for Unreal** | Rebuilds scenes: geometry, instances, materials, terrain, splines, decals, lights, animated props. |
-| 🧱 | **VesperCast** | CAST models, materials and animations → UE 5.8, with 14 per-game shader profiles. |
-| 📡 | **VesperLiveLink** | Streams **live** cameras, hands, weapons, bodies and bots into Sequencer. 9 games. |
+<table>
+  <tr>
+    <td align="center">🗺️</td>
+    <td><b>Vesper</b></td>
+    <td>Desktop app. Exports maps and assets out of Call of Duty games.</td>
+  </tr>
+  <tr>
+    <td align="center">🌍</td>
+    <td><b>Vesper for Unreal</b></td>
+    <td>Imports those exports into Unreal as editable scenes.</td>
+  </tr>
+  <tr>
+    <td align="center">🧱</td>
+    <td><b>VesperCast</b></td>
+    <td>Brings models, materials and animations into Unreal.</td>
+  </tr>
+  <tr>
+    <td align="center">📡</td>
+    <td><b>VesperLiveLink</b></td>
+    <td>Streams live game cameras and characters into Unreal.</td>
+  </tr>
+</table>
 
 ## 🎥 Cinematic tools
-> So demos can be replayed, re-cameraed and captured properly.
 
-| | | | |
-|:--|:--|:--|:--|
-| 🎞️ | **S2MP Mod Demo** | WWII | Dolly paths, free cam, ProRes capture, CineBots. |
-| 🕶️ | **t9 Demo Client** | Black Ops Cold War | Bot-match recording, native playback, Lua scripting. |
-| 🔫 | **H1 CoD4 Demo** | MWR | CoD4 `.dm_1` → MWR `.dm_h1`. Remastered replays of 2007 recordings. |
-| 🎬 | **H1 Demo System** | MWR | The demo engine behind it: recording, cameras, frame capture. |
-| 📼 | **ColdWar Demo Tool** | Cold War | Pulls loaded Theater replays out as `.demo` files. |
-| ✏️ | **Demo Name Editor** | 4 titles | Rename players inside a demo without breaking it. |
+<table>
+  <tr>
+    <td align="center">🎞️</td>
+    <td><b>S2MP Mod Demo</b></td>
+    <td>Camera and playback tools for Call of Duty: WWII.</td>
+  </tr>
+  <tr>
+    <td align="center">🕶️</td>
+    <td><b>t9 Demo Client</b></td>
+    <td>Recording and playback tools for Black Ops Cold War.</td>
+  </tr>
+  <tr>
+    <td align="center">🔫</td>
+    <td><b>H1 CoD4 Demo</b></td>
+    <td>Plays old Call of Duty 4 demos inside Modern Warfare Remastered.</td>
+  </tr>
+  <tr>
+    <td align="center">🎬</td>
+    <td><b>H1 Demo System</b></td>
+    <td>The demo engine behind the H1 client.</td>
+  </tr>
+  <tr>
+    <td align="center">📼</td>
+    <td><b>ColdWar Demo Tool</b></td>
+    <td>Saves loaded replays as demo files.</td>
+  </tr>
+  <tr>
+    <td align="center">✏️</td>
+    <td><b>Demo Name Editor</b></td>
+    <td>Renames players inside recorded demos.</td>
+  </tr>
+</table>
 
 ## 🧩 Unreal plugins
-> Not Call of Duty specific. Anyone can use these.
 
-| | | |
-|:--|:--|:--|
-| 🔀 | **BetterNodes** | Blueprint + Material graph cleanup. Subway/Manhattan wiring, real reroutes, path tracing. |
-| 🎨 | **BetterUI** | Reversible flat editor theme. 3 palettes, accent colours, exportable presets. |
-| 🎥 | **MVM Camera** | Scrub, fly, press **K**. Generates the camera moves between your shots. |
+<table>
+  <tr>
+    <td align="center">🔀</td>
+    <td><b>BetterNodes</b></td>
+    <td>Cleans up Blueprint and Material graphs.</td>
+  </tr>
+  <tr>
+    <td align="center">🎨</td>
+    <td><b>BetterUI</b></td>
+    <td>A flat theme for the Unreal editor.</td>
+  </tr>
+  <tr>
+    <td align="center">🎥</td>
+    <td><b>MVM Camera</b></td>
+    <td>Builds camera moves between shots as you pose an animation.</td>
+  </tr>
+</table>
 
 ## 🕹️ Other games
 
-| | | |
-|:--|:--|:--|
-| 🦸 | **OWM Importer** | Overwatch assets → Unreal, natively. No Blender, no FBX. Full browse/extract/assemble library. |
-| 🐴 | **SSO LiveLink** | Star Stable Online browser. 79,821 entries, 3D preview, OBJ/PNG and environment exports. |
-| 🧑🚀 | **Operator2MetaHuman** | Turning a CoD operator into a working MetaHuman — face, rig, gear and helmet intact. |
-
-## 🧪 Research
-> The rabbit holes. Some of these are nowhere near finished.
-
-| | | |
-|:--|:--|:--|
-| 🗿 | **Vestige** | Rebuilding MWII maps to run inside MWIII. A converted Strike world is now visible in-engine. |
-| 🛰️ | **VesperWorldLink** | The reverse direction: Unreal geometry → the game's native model system. Probe stage. |
-| 🕹️ | **OW1 Sandbox** | Offline Overwatch 1.74. Launcher, metadata libraries, map and lobby research. |
-
-## 🧟 COD4 era
-> Where this all started — mods built to make 2007 footage look good.
-
-`IW3 ENHANCER` · `IW3 TEXTURES` · `MWR to IW3` · `Polito Special Mod`
+<table>
+  <tr>
+    <td align="center">🦸</td>
+    <td><b>OWM Importer</b></td>
+    <td>Brings Overwatch assets into Unreal.</td>
+  </tr>
+  <tr>
+    <td align="center">🐴</td>
+    <td><b>SSO LiveLink</b></td>
+    <td>Browses and exports Star Stable Online assets.</td>
+  </tr>
+  <tr>
+    <td align="center">🧑🚀</td>
+    <td><b>Operator2MetaHuman</b></td>
+    <td>Converts a Call of Duty operator into a MetaHuman.</td>
+  </tr>
+</table>
 
 ## 🩹 Small fixes
 
-| | | |
-|:--|:--|:--|
-| 🔧 | **SmartCastMerger** | Repairs the broken textures ModelMerger leaves in merged `.cast` files. |
-| 🦴 | **CAST Anim Layerer** | Layers one animation over another, bone by bone. |
-| 🧪 | **UECast BO7 Fix** | Fixes Black Ops 7 materials after import. Native C++. |
-| 🖥️ | **Ghosts Safe Area Fix** | Kills the hard HUD edges from a smaller safe area. |
-| ⚙️ | **CoD Config Console** | Config editor for 6 CoD titles + Delta Force and Overwatch. |
+<table>
+  <tr>
+    <td align="center">🔧</td>
+    <td><b>SmartCastMerger</b></td>
+    <td>Fixes broken textures when merging model files.</td>
+  </tr>
+  <tr>
+    <td align="center">🦴</td>
+    <td><b>CAST Anim Layerer</b></td>
+    <td>Layers one animation on top of another.</td>
+  </tr>
+  <tr>
+    <td align="center">🧪</td>
+    <td><b>UECast BO7 Fix</b></td>
+    <td>Repairs Black Ops 7 materials after import.</td>
+  </tr>
+  <tr>
+    <td align="center">🖥️</td>
+    <td><b>Ghosts Safe Area Fix</b></td>
+    <td>Cleans up the HUD edges in Ghosts.</td>
+  </tr>
+  <tr>
+    <td align="center">⚙️</td>
+    <td><b>CoD Config Console</b></td>
+    <td>Edits Call of Duty config files.</td>
+  </tr>
+</table>
 
 ---
 
@@ -95,8 +167,8 @@ Can't really write code — so I build tools instead, and keep going until the s
 
 ### 🟢 Stable &nbsp; 🟡 In progress &nbsp; 🟠 Experimental
 
-Most of this is 🟡. The READMEs say exactly what works, what's approximated, and what's still unproven.
+Most of this is 🟡. The READMEs say what works and what's still unproven.
 
-<sub>If I got something wrong, open an issue — I'm a video editor, I'm allowed to be wrong.</sub>
+<sub>Found a bug? Open an issue — I'm a video editor, I'm allowed to be wrong.</sub>
 
 </div>
