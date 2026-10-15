@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=210&section=header&text=POLITO&fontColor=ffffff&fontSize=72&fontAlignY=35&desc=video%20editor%20%E2%80%A2%20vibe-coder%20%E2%80%A2%20Call%20of%20Duty%20%E2%86%92%20Unreal&descAlignY=56&descSize=16&animation=fadeIn" alt="Polito"/>
+<img width="100%" src="header.svg" alt="Polito — video editor, vibe-coder, Call of Duty to Unreal"/>
 
 <a href="https://www.youtube.com/@Politoo"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 <a href="https://twitter.com/thatkidpolito"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
