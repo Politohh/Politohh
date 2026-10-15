@@ -18,14 +18,9 @@ Can't really write code — so I build tools instead, and keep going until the s
 
 <br>
 
-<table>
-  <tr>
-    <td align="center">🗺️<br><b>25</b><br><sub>map readers</sub></td>
-    <td align="center">🎮<br><b>14</b><br><sub>game profiles</sub></td>
-    <td align="center">📡<br><b>9</b><br><sub>live games</sub></td>
-    <td align="center">📦<br><b>31</b><br><sub>repos</sub></td>
-  </tr>
-</table>
+<p align="center">
+  🗺️ <b>25</b> map readers &nbsp;•&nbsp; 🎮 <b>14</b> game profiles &nbsp;•&nbsp; 📡 <b>9</b> live games &nbsp;•&nbsp; 📦 <b>31</b> repos
+</p>
 
 </div>
 
