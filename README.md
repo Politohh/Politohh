@@ -115,7 +115,7 @@ I edit Call of Duty videos and build tools for my shots in Unreal.
   <tr>
     <td align="center">🧑🚀</td>
     <td><b>Operator2MetaHuman</b></td>
-    <td>Converts a Call of Duty operator into a MetaHuman.</td>
+    <td>Follow the Western Price conversion from game model to MetaHuman, including face and gear fitting.</td>
   </tr>
 </table>
 
@@ -125,27 +125,27 @@ I edit Call of Duty videos and build tools for my shots in Unreal.
   <tr>
     <td align="center">🔧</td>
     <td><b>SmartCastMerger</b></td>
-    <td>Fixes broken textures when merging model files.</td>
+    <td>Merge CAST models while preserving their texture assignments for Unreal.</td>
   </tr>
   <tr>
     <td align="center">🦴</td>
     <td><b>CAST Anim Layerer</b></td>
-    <td>Layers one animation on top of another.</td>
+    <td>Combine two CAST animations, such as an upper-body action over a walk cycle.</td>
   </tr>
   <tr>
     <td align="center">🧪</td>
     <td><b>UECast BO7 Fix</b></td>
-    <td>Repairs Black Ops 7 materials after import.</td>
+    <td>Correct misplaced textures on Black Ops 7 models imported through UECast.</td>
   </tr>
   <tr>
     <td align="center">🖥️</td>
     <td><b>Ghosts Safe Area Fix</b></td>
-    <td>Cleans up the HUD edges in Ghosts.</td>
+    <td>Remove hard edges from blood and killcam effects while keeping the Ghosts HUD inset.</td>
   </tr>
   <tr>
     <td align="center">⚙️</td>
     <td><b>CoD Config Console</b></td>
-    <td>Edits Call of Duty config files.</td>
+    <td>Search and edit Call of Duty settings or apply a performance or cinematic preset.</td>
   </tr>
 </table>
 
