@@ -25,22 +25,22 @@ I edit Call of Duty videos and build tools for my shots in Unreal.
   <tr>
     <td align="center">🗺️</td>
     <td><b>Vesper</b></td>
-    <td>Desktop app. Exports maps and assets out of Call of Duty games.</td>
+    <td>Browse Call of Duty assets and export maps, characters, weapons, and animations.</td>
   </tr>
   <tr>
     <td align="center">🌍</td>
     <td><b>Vesper for Unreal</b></td>
-    <td>Imports those exports into Unreal as editable scenes.</td>
+    <td>Rebuild Vesper map exports in Unreal with editable terrain, lights, props, and effects.</td>
   </tr>
   <tr>
     <td align="center">🧱</td>
     <td><b>VesperCast</b></td>
-    <td>Brings models, materials and animations into Unreal.</td>
+    <td>Import CAST models and animations into Unreal with game-specific materials and camos.</td>
   </tr>
   <tr>
     <td align="center">📡</td>
     <td><b>VesperLiveLink</b></td>
-    <td>Streams in-game cameras and characters into Unreal and records them as editable takes.</td>
+    <td>Record in-game cameras, characters, and equipment as editable Unreal Sequencer takes.</td>
   </tr>
 </table>
 
@@ -50,32 +50,32 @@ I edit Call of Duty videos and build tools for my shots in Unreal.
   <tr>
     <td align="center">🎞️</td>
     <td><b>S2MP Mod Demo</b></td>
-    <td>Camera and playback tools for Call of Duty: WWII.</td>
+    <td>Record WWII matches and film the replay with a free camera or dolly.</td>
   </tr>
   <tr>
     <td align="center">🕶️</td>
     <td><b>t9 Demo Client</b></td>
-    <td>Recording and playback tools for Black Ops Cold War.</td>
+    <td>Record and replay Black Ops Cold War matches locally with cinematic cameras and Lua scripting.</td>
   </tr>
   <tr>
     <td align="center">🔫</td>
     <td><b>H1 CoD4 Demo</b></td>
-    <td>Plays old Call of Duty 4 demos inside Modern Warfare Remastered.</td>
+    <td>Record Modern Warfare Remastered demos and film COD4 replays in the H1MVM Theater editor.</td>
   </tr>
   <tr>
     <td align="center">🎬</td>
     <td><b>H1 Demo System</b></td>
-    <td>The demo engine behind the H1 client.</td>
+    <td>Powers H1MVM demo recording, playback, and conversion of original COD4 demos.</td>
   </tr>
   <tr>
     <td align="center">📼</td>
     <td><b>ColdWar Demo Tool</b></td>
-    <td>Saves loaded replays as demo files.</td>
+    <td>Save loaded Cold War Theater replays as .demo files and inspect saved recordings.</td>
   </tr>
   <tr>
     <td align="center">✏️</td>
     <td><b>Demo Name Editor</b></td>
-    <td>Renames players inside recorded demos.</td>
+    <td>Change the player names shown in Call of Duty demo playback.</td>
   </tr>
 </table>
 
@@ -85,17 +85,17 @@ I edit Call of Duty videos and build tools for my shots in Unreal.
   <tr>
     <td align="center">🔀</td>
     <td><b>BetterNodes</b></td>
-    <td>Cleans up Blueprint and Material graphs.</td>
+    <td>Organize Blueprint and Material graphs with routed wires and flat node styles.</td>
   </tr>
   <tr>
     <td align="center">🎨</td>
     <td><b>BetterUI</b></td>
-    <td>A flat theme for the Unreal editor.</td>
+    <td>Customize Unreal Editor with flat themes, accent colors, and adjustable fonts.</td>
   </tr>
   <tr>
     <td align="center">🎥</td>
     <td><b>MVM Camera</b></td>
-    <td>Builds camera moves between shots as you pose an animation.</td>
+    <td>Build camera paths against a Sequencer animation, framing each shot at its own frame.</td>
   </tr>
 </table>
 
@@ -105,12 +105,12 @@ I edit Call of Duty videos and build tools for my shots in Unreal.
   <tr>
     <td align="center">🦸</td>
     <td><b>OWM Importer</b></td>
-    <td>Brings Overwatch assets into Unreal.</td>
+    <td>Browse Overwatch heroes, skins, and maps and import them as editable Unreal assets.</td>
   </tr>
   <tr>
     <td align="center">🐴</td>
     <td><b>SSO LiveLink</b></td>
-    <td>Browses and exports Star Stable Online assets.</td>
+    <td>Preview Star Stable Online meshes and textures, and export terrain, buildings, and props.</td>
   </tr>
   <tr>
     <td align="center">🧑🚀</td>
